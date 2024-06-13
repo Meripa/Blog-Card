@@ -19,9 +19,9 @@
 .blog-card{
     width: 100%;
     max-width: 440px;
-    background: #fff;
-    margin: 100px auto 20px;
-    padding: 0px 0px 40px;
+    background: #fce7cc;
+    margin: 100px auto 10px;
+    padding: 0px 0px 30px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
 }
@@ -56,4 +56,23 @@ p.topic {
     padding-left: 10px;
     padding-right: 10px;
     max-width: fit-content;
+    color: white;
 }
+
+.user-info{
+    display: flex;
+    text-align: center;
+}
+
+.user-info img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.user-text{
+    position: relative;
+    top: -70px;
+    left: 130px;
+}
+
